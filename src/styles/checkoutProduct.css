@@ -1,0 +1,9 @@
+.checkoutProduct{
+    display: flex;
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    height: 180px;
+    width: 180px;
+}
