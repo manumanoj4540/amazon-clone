@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/checkoutProduct.css'
 import {useStateValue} from './StateProvider';
 
-
 function CheckoutProduct({id, title, image, price, rating}) {
     const [, dispatch] = useStateValue();
     const removeItem = () => {
